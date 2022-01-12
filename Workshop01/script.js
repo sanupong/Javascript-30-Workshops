@@ -7,7 +7,7 @@ const amount_two=document.getElementById('amount-two');
 const rateText=document.getElementById('rate');
 const swap=document.getElementById('btn');
 
-currency_one.addEventListener("change",calculateMoney);
+currency_one.addEventListener('change',calculateMoney);
 
 function calculateMoney(){
     console.log("Ok");
